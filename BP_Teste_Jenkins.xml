@@ -1,0 +1,14 @@
+<process name = "BP_Teste_Jenkins">
+<sequence name="Sequence Start">
+<operation name="XAPI Service">
+<participant name="XAPIService"/>
+<output message="XAPIServiceTypeInputMessage">
+<assign to="." from="*"></assign>
+<assign to="api">deleteUserHierarchy</assign>
+</output>
+<input message="inmsg">
+<assign to="." from="*"></assign>
+</input>
+</operation>
+</sequence>
+</process>
