@@ -1,0 +1,31 @@
+{
+  "businessProcess": "<process name = \"BP_Teste_Jenkins\">\r\n<sequence name=\"Sequence Start\">\r\n<operation name=\"XAPI Service\">\r\n<participant name=\"XAPIService\"/>\r\n<output message=\"XAPIServiceTypeInputMessage\">\r\n<assign to=\".\" from=\"*\"><\/assign>\r\n<assign to=\"api\">deleteUserHierarchy<\/assign>\r\n<\/output>\r\n<input message=\"inmsg\">\r\n<assign to=\".\" from=\"*\"><\/assign>\r\n<\/input>\r\n<\/operation>\r\n<\/sequence>\r\n<\/process>",
+  "name": "BP_Teste_Jenkins",
+  "description": "BP_Teste_Jenkins_desc",
+  "category": null,
+  "commitStepsUponError": false,
+  "deadlineHours": null,
+  "deadlineMinutes": null,
+
+  "documentStorage": null,
+  "documentTracking": false,
+  "enableBusinessProcess": true,
+  "enableTransaction": false,
+  "eventReportingLevel": null,
+  "firstNotificationHours": null,
+  "firstNotificationMinutes": null,
+  "lifespanDays": null,
+  "lifespanHours": null,
+
+  "node": null,
+  "nodePreference": null,
+  "onfaultProcessing": false,
+  "persistenceLevel": null,
+  "queue": null,
+  "recoveryLevel": null,
+  "removalMethod": null,
+  "secondNotificationHours": null,
+  "secondNotificationMinutes": null,
+  "softstopRecoveryLevel": null,
+  "useBPQueuing": true
+}
