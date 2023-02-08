@@ -1,0 +1,31 @@
+{
+  "businessProcess": "@FONT_BP@",
+  "name": "BP_Teste_Jenkins",
+  "description": "BP_Teste_Jenkins_desc ${GIT_COMMIT}",
+  "category": null,
+  "commitStepsUponError": false,
+  "deadlineHours": null,
+  "deadlineMinutes": null,
+
+  "documentStorage": null,
+  "documentTracking": false,
+  "enableBusinessProcess": true,
+  "enableTransaction": false,
+  "eventReportingLevel": null,
+  "firstNotificationHours": null,
+  "firstNotificationMinutes": null,
+  "lifespanDays": null,
+  "lifespanHours": null,
+
+  "node": null,
+  "nodePreference": null,
+  "onfaultProcessing": false,
+  "persistenceLevel": null,
+  "queue": null,
+  "recoveryLevel": null,
+  "removalMethod": null,
+  "secondNotificationHours": null,
+  "secondNotificationMinutes": null,
+  "softstopRecoveryLevel": null,
+  "useBPQueuing": true
+}
