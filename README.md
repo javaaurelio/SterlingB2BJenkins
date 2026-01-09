@@ -1,6 +1,5 @@
 # SterlingB2BJenkins
 
-Segue o conteúdo **organizado, estruturado e traduzido para o inglês**, com linguagem **técnica e adequada para proposta de CI/CD**:
 
 ---
 
